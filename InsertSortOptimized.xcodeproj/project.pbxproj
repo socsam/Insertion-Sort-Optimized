@@ -14,6 +14,7 @@
 		A660322F243BB5C90041BA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A660322E243BB5C90041BA49 /* Assets.xcassets */; };
 		A6603232243BB5C90041BA49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6603230243BB5C90041BA49 /* LaunchScreen.storyboard */; };
 		A660323D243BB5CA0041BA49 /* InsertSortOptimizedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A660323C243BB5CA0041BA49 /* InsertSortOptimizedTests.swift */; };
+		A6603249243BB6920041BA49 /* InsertionSortOptimized.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6603248243BB6920041BA49 /* InsertionSortOptimized.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		A6603238243BB5CA0041BA49 /* InsertSortOptimizedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsertSortOptimizedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A660323C243BB5CA0041BA49 /* InsertSortOptimizedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSortOptimizedTests.swift; sourceTree = "<group>"; };
 		A660323E243BB5CA0041BA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6603248243BB6920041BA49 /* InsertionSortOptimized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSortOptimized.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		A6603224243BB5C60041BA49 /* InsertSortOptimized */ = {
 			isa = PBXGroup;
 			children = (
+				A6603247243BB6740041BA49 /* Sort */,
 				A6603225243BB5C60041BA49 /* AppDelegate.swift */,
 				A6603227243BB5C60041BA49 /* SceneDelegate.swift */,
 				A6603229243BB5C60041BA49 /* ViewController.swift */,
@@ -97,6 +100,14 @@
 				A660323E243BB5CA0041BA49 /* Info.plist */,
 			);
 			path = InsertSortOptimizedTests;
+			sourceTree = "<group>";
+		};
+		A6603247243BB6740041BA49 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				A6603248243BB6920041BA49 /* InsertionSortOptimized.swift */,
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +214,7 @@
 				A660322A243BB5C60041BA49 /* ViewController.swift in Sources */,
 				A6603226243BB5C60041BA49 /* AppDelegate.swift in Sources */,
 				A6603228243BB5C60041BA49 /* SceneDelegate.swift in Sources */,
+				A6603249243BB6920041BA49 /* InsertionSortOptimized.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
