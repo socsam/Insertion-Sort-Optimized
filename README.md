@@ -1,7 +1,7 @@
 
 # Insertion Sort Optimized
 
-Insertion Sort Optimized (ISO) leverages several techniques to achive perfomance up to 5x faster than Swift.sort implementation of Timsort.
+Insertion Sort Optimized (ISO) leverages several techniques to achieve performance up to 5x faster than Swift.sort implementation of Timsort.
 
 
 ## Approach
