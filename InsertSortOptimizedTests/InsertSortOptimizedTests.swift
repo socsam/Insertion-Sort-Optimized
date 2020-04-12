@@ -11,14 +11,6 @@ import XCTest
 
 class InsertSortOptimizedTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
     func testOneBillion() throws {
         testRandomizedArray(arraySize: 1_000_000_000, cyclesToRun: 1)
     }

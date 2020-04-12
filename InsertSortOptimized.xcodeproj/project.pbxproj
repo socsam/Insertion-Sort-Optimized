@@ -15,6 +15,7 @@
 		A6603232243BB5C90041BA49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6603230243BB5C90041BA49 /* LaunchScreen.storyboard */; };
 		A660323D243BB5CA0041BA49 /* InsertSortOptimizedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A660323C243BB5CA0041BA49 /* InsertSortOptimizedTests.swift */; };
 		A6603249243BB6920041BA49 /* InsertionSortOptimized.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6603248243BB6920041BA49 /* InsertionSortOptimized.swift */; };
+		A660324B243E50F80041BA49 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A660324A243E50F80041BA49 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A660323C243BB5CA0041BA49 /* InsertSortOptimizedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSortOptimizedTests.swift; sourceTree = "<group>"; };
 		A660323E243BB5CA0041BA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6603248243BB6920041BA49 /* InsertionSortOptimized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSortOptimized.swift; sourceTree = "<group>"; };
+		A660324A243E50F80041BA49 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		A6603224243BB5C60041BA49 /* InsertSortOptimized */ = {
 			isa = PBXGroup;
 			children = (
+				A660324A243E50F80041BA49 /* README.md */,
 				A6603247243BB6740041BA49 /* Sort */,
 				A6603225243BB5C60041BA49 /* AppDelegate.swift */,
 				A6603227243BB5C60041BA49 /* SceneDelegate.swift */,
@@ -193,6 +196,7 @@
 			files = (
 				A6603232243BB5C90041BA49 /* LaunchScreen.storyboard in Resources */,
 				A660322F243BB5C90041BA49 /* Assets.xcassets in Resources */,
+				A660324B243E50F80041BA49 /* README.md in Resources */,
 				A660322D243BB5C60041BA49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -360,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -411,7 +415,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InsertSortOptimizedTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,7 +436,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InsertSortOptimizedTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
